@@ -13,6 +13,7 @@ We're making interactive plots
 ```{r}
 library(tidyverse)
 library(plotly)
+library(dplyr)
 
 library(p8105.datasets)
 ```
@@ -22,47 +23,54 @@ library(p8105.datasets)
 Focus on NYC Airbnb data.
 
 ```{r}
-data("nyc_airbnb")
+data("rest_inspec")
 
-nyc_airbnb = 
-  nyc_airbnb |> 
-  mutate(stars = review_scores_location / 2) |> 
-  select(borough = neighbourhood_group, 
-         neighbourhood, stars, price, room_type, lat, long) |> 
-  drop_na(stars) |> 
-  filter(
-    borough == "Manhattan",
-    room_type == "Entire home/apt",
-    price %in% 100:500
-  )
+rest_inspec_bronx = rest_inspec |> 
+  select(boro, building, critical_flag, cuisine_description, dba, score, zipcode) |> 
+  drop_na(score) |> 
+  filter( boro == "BRONX", score >=30) 
+
+rest_inspec_allboros = rest_inspec |> 
+  select(boro, building, critical_flag, cuisine_description, dba, score, zipcode, inspection_date) |> 
+  drop_na(score) |> 
+  filter(score >=30) |> sample_n(1000, replace = FALSE)
+
+
+rest_inspec |> count(cuisine_description)
+  
 ```
 
 Let's make a scatterplot!
 
 ```{r}
-nyc_airbnb |> 
-  mutate(text_label = str_c("Price: $", price, "\nRating: ", stars)) |> 
+
+rest_inspec_allboros %>%
   plot_ly(
-    x = ~lat, y = ~long, color = ~price, text = ~text_label,
-    type = "scatter", mode = "markers", alpha = 0.5)
+    x = ~inspection_date, y = ~score, color = ~boro, 
+    type = "scatter", mode = "markers", marker = list(size = 10, opacity = 0.5)) 
 ```
 
 Let's make a box plot!
 
 ```{r}
-nyc_airbnb |> 
-  mutate(neighbourhood = fct_reorder(neighbourhood, price)) |> 
-  plot_ly(y = ~price, color = ~neighbourhood, type = "box", colors = "viridis")
+ rest_inspec %>% filter(boro != "Missing", score >=0) |> 
+  mutate(boro = fct_reorder(boro, score)) |> 
+  plot_ly(
+    x = ~boro, y = ~score,
+    type = "box", colors = "viridis") 
 ```
 
 
 Let's make a bar plot!
 
 ```{r}
-nyc_airbnb |> 
-  count(neighbourhood) |> 
-  mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
+ rest_inspec_bronx %>%
+  count(cuisine_description) %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>%
   plot_ly(
-    x = ~neighbourhood, y = ~n, color = ~neighbourhood,
+    x = ~cuisine_description, y = ~n, color = ~cuisine_description,
     type = "bar", colors = "viridis")
+
 ```
+
+

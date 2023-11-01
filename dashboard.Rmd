@@ -8,29 +8,60 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+
+data("rest_inspec")
+
+rest_inspec_bronx = rest_inspec |> 
+  select(boro, building, critical_flag, cuisine_description, dba, score, zipcode) |> 
+  drop_na(score) |> 
+  filter( boro == "BRONX", score >=30) 
+
+rest_inspec_allboros = rest_inspec |> 
+  select(boro, building, critical_flag, cuisine_description, dba, score, zipcode, inspection_date) |> 
+  drop_na(score) |> 
+  filter(score >=30) |> sample_n(1000, replace = FALSE)
 ```
+
+
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Distribution of Score by Boro 
 
 ```{r}
-
+ rest_inspec %>% filter(boro != "Missing", score >=0) |> 
+  mutate(boro = fct_reorder(boro, score)) |> 
+  plot_ly(
+    x = ~boro, y = ~score,
+    type = "box", colors = "viridis") 
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Random Sample (n=1000) of Score by Inspection Date
 
 ```{r}
-
+rest_inspec_allboros %>%
+  plot_ly(
+    x = ~inspection_date, y = ~score, color = ~boro, 
+    type = "scatter", mode = "markers", marker = list(size = 10, opacity = 0.5)) 
 ```
 
-### Chart C
+### Number of Restaurants with Violations in the Bronx by Cuisine
 
 ```{r}
+rest_inspec_bronx %>%
+  count(cuisine_description) %>%
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>%
+  plot_ly(
+    x = ~cuisine_description, y = ~n, color = ~cuisine_description,
+    type = "bar", colors = "viridis")
 
 ```
 
