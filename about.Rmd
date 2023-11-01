@@ -1,5 +1,5 @@
 
 
-# Professional Experience
+# About
 
-This website is pretty great!
+This website was created as an assignment for P8105: Data Science I taught by Professor Arthur Goldsmith.
