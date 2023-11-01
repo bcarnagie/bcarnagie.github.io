@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Professional Experiences"
       href: Professional-Experience.html
+    - text: "plotly"
+      href: plotly.html
     - icon: fa-envelope fa-lg
       href: mailto:<bac2214@columbia.edu>
     - icon: fa-github fa-lg
