@@ -6,14 +6,6 @@ output:
     number_sections: false
 ---
 
-# Contact Information
-
-- **Name:** Brianna Carnagie
-- **Address:** New York, NY
-- **Phone:** 347-319-4749
-- **Email:** bac2214@columbia.edu
-- **LinkedIn:** [linkedin.com/in/briannacarnagie](https://www.linkedin.com/in/briannacarnagie)
-
 # Education
 
 <span style="font-size:20px; color:#21618C;"><strong>Columbia University Mailman School of Public Health</strong></span>
