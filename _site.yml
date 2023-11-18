@@ -10,7 +10,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<bac2214@columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<bcarnagie>/
+      href: http://github.com/bcarnagie/
     - icon: fa-linkedin fa-lg    
       href: https://www.linkedin.com/in/briannacarnagie
 output:
