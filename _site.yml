@@ -15,4 +15,4 @@ navbar:
       href: https://www.linkedin.com/in/briannacarnagie
 output:
   html_document:
-    theme: simplex
+    theme: flatly

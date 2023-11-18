@@ -179,41 +179,6 @@ Campus Outreach Intern
   * Identify possible community partnership and education opportunities with local clubs and organizations on campus.
   * Work directly with executive board to support overall project needs.  
 
-# Research and Projects
-
-<span style="font-size:20px; color:#21618C;"><strong>Food Insecurity and Educational Attainment</strong></span>
-
-*November 2023*  
-Data Visualization Project
-
-  * Created a series of maps in QGIS comparing the relationships between food insecurity rates and educational attainment levels in elementary school students attending public schools in New York City.  
-  * Ran a spatial regression analysis in RStudio to examine the spatial autocorrelation and identify significant predictors that influence the relationship between food insecurity rates and educational attainment levels, offering a deeper understanding of the spatial patterns and potential drivers of these socioeconomic factors.  
-
-<span style="font-size:20px; color:#21618C;"><strong>Epidemiology Masters Student Day</strong></span>
-
-*October 2023*  
-Poster Presentation
-
-  * Carnagie, B.A., Greenleaf, A., Howard, A.A. (2023). "Exploring COVID-19 Impacts and Vaccine Uptake Among People Living with HIV in Western Kenya." Poster presented at Columbia University Epidemiology Student Poster Presentation.  
-    + Utilized SAS to run logistic regressions to assess the association between sociodemographic variables and COVID-19 vaccine uptake, contributing valuable insights into the factors influencing vaccination decisions among this vulnerable population.  
-
-<span style="font-size:20px; color:#21618C;"><strong>Youth Mental Health Advocacy Organizations Report</strong></span>
-
-*July 2023*  
-Competitive Analysis Slide Deck  
-
-  * Conducted extensive research to identify and evaluate youth mental health advocacy organizations, examining their missions, programs, and impact.  
-  * Analyzed the effectiveness of these organizations in addressing youth mental health challenges, identifying best practices and areas for improvement.  
-  * Presented the report to stakeholders and decision-makers, fostering discussions on strategies to enhance youth mental health support and unique advocacy initiatives.  
-
-<span style="font-size:20px; color:#21618C;"><strong>Stony Brook Health Science Student Poster Presentation</strong></span>
-
-*December 2021*  
- Poster Presentation  
-
-  * Carnagie, B.A. (2021). "A Qualitative Phenomenological Research Study Exploring the Perceptions of African American Adolescents Regarding Food Insecurity in Urban Communities of New York City." Poster presented at Stony Brook University Health Science Student Full Poster Presentation.  
-    + Demonstrated a comprehensive understanding of ethical research practices by actively drafting an IRB protocol proposal for the research project. This proposal encompassed a thorough literature review, a detailed methods section, and a comprehensive assessment of potential harm to participants.  
-
 # Technical Skills
 
 * **Coding Languages and Skills:** Excel (Advanced), R (Intermediate), SAS (Intermediate), QGIS   (Intermediate), Tableau (Beginner), SQL (Beginner), ArcGIS (Beginner) 
