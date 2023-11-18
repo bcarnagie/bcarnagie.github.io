@@ -6,9 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Professional Experiences"
-      href: Professional-Experience.html
-    - text: "Dashboard"
-      href: dashboard.html
+      href: Professional-Experience---Enhanced.html
     - icon: fa-envelope fa-lg
       href: mailto:<bac2214@columbia.edu>
     - icon: fa-github fa-lg
