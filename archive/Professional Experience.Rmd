@@ -1,5 +1,5 @@
 ---
-title: "Brianna Carnagie's Resume"
+title: ""
 output: 
   html_document:
     toc: false
