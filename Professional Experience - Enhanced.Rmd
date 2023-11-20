@@ -20,6 +20,7 @@ output:
 
 *May 2022*
 
+
 - Bachelor of Science in Health Science  
 - Concentration in Public Health  
 - Health, Medicine, and Society Minor  
