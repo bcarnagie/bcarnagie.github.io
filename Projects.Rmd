@@ -15,6 +15,7 @@ output:
 
 - Created a series of maps in QGIS comparing the relationships between food insecurity rates and educational attainment levels in elementary school students attending public schools in New York City.
 - Ran a spatial regression analysis in RStudio to examine the spatial autocorrelation and identify significant predictors that influence the relationship between food insecurity rates and educational attainment levels.
+- View my poster presentation [here](files/GIS Poster.pdf).
 
 ## Epidemiology Masters Student Day
 
