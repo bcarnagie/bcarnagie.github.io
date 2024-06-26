@@ -42,7 +42,7 @@ Data Assistant
 <span style="font-size:20px; color:#21618C;"><strong>Wellness Together</strong></span>
 
 *Roseville, CA*   
-Partnerships Assistant
+Outreach Programs Assistant
 
 - *June 2022 – Present* 
 
@@ -177,8 +177,8 @@ Campus Outreach Intern
 # Technical Skills
 
 * **Coding Languages and Skills:** Excel (Advanced), R (Intermediate), SAS (Intermediate), QGIS   (Intermediate), Tableau (Beginner), SQL (Beginner), ArcGIS (Beginner) 
-* **R Packages and Skills:** {ggplot2}, {tidyverse}, {lubridate} 
-* **Analysis Skills:** linear and logistic regression, data wrangling, data visualization, exploratory data analysis, geospatial analysis, geospatial mapping   
+* **R Packages and Skills:** {ggplot2}, {tidyverse}, {lubridate}, {plotly}, {caret}, {randomForest}, {glmnet}
+* **Analysis Skills:** linear and logistic regression, poisson regression, survival analysis, cox models, data wrangling, data visualization, exploratory data analysis, geospatial analysis, geospatial mapping   
 
 # Certfications
 
