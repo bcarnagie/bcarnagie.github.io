@@ -10,11 +10,11 @@ output:
 
 <span style="font-size:20px; color:#21618C;"><strong>Columbia University Mailman School of Public Health</strong></span>
 
-*Expected May 2024*
+*May 2024*
 
 - Master of Public Health in Epidemiology  
 - Certificate in Applied Biostatistics and Public Health Data Science  
-- **Relevant Coursework:** Applied Regression I, Analysis of Categorical Data, Data Science I, Relational Databases and SQL Programming, Public Health GIS, Epidemiology II & III, Application of Epidemiological Research Methods.   
+- **Relevant Coursework:** Applied Regression I & II, Analysis of Categorical Data, Data Science I, Relational Databases and SQL Programming, Pharmaceutical Statistics, Public Health GIS, Epidemiology II & III, Machine Learning in Epidemiology, Application of Epidemiological Research Methods.   
 
 <span style="font-size:20px; color:#21618C;"><strong>Stony Brook University</strong></span>
 
