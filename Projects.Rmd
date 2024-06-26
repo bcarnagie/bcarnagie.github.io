@@ -8,6 +8,15 @@ output:
 
 # Research and Projects {.tabset}
 
+## Food Insecurity amongst Immigrants
+
+*May 2024*
+**Graduate Thesis**
+
+- Carnagie, B.A (2024). ["Comparative analysis of food insecurity among immigrants and the U.S.-born: Insights from the National Health and Nutrition Examination Surveys."](files/MPH Thesis.pdf) [Master's thesis, Columbia University Mailman School of Public Health].
+
+This thesis explores the significant public health issue of food insecurity among immigrants in comparison to U.S.-born citizens, utilizing data from the National Health and Nutrition Examination Surveys (NHANES). Key findings include that approximately 20.7% of the immigrant population in the U.S. experiences food insecurity with significant risk factors such as non-citizenship status, specific racial/ethnic groups, lower education levels, and language barriers. The study underscores the importance of nuanced public health policies and interventions designed to enhance food security among immigrant populations, thereby contributing to broader societal health and stability.
+
 ## Food Insecurity and Educational Attainment
 
 *November 2023*  
@@ -22,7 +31,7 @@ output:
 *October 2023*  
 **Poster Presentation**
 
-- Carnagie, B.A., Greenleaf, A., Howard, A.A. (2023). ["Exploring COVID-19 Impacts and Vaccine Uptake Among People Living with HIV in Western Kenya.](files/Carnagie_Brianna_Poster.pdf)" Poster presented at Columbia University Epidemiology Student Poster Presentation.
+- Carnagie, B.A., Greenleaf, A., Howard, A.A. (2023). ["Exploring COVID-19 Impacts and Vaccine Uptake Among People Living with HIV in Western Kenya."](files/Carnagie_Brianna_Poster.pdf)" Poster presented at Columbia University Epidemiology Student Poster Presentation.
   + Utilized SAS to run logistic regressions to assess the association between sociodemographic variables and COVID-19 vaccine uptake.
 
 ## Youth Mental Health Advocacy Organizations Report
