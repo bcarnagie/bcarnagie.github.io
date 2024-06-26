@@ -17,8 +17,3 @@ Ready to explore my journey and projects? Click below to dive in!
 [Explore My Work](https://bcarnagie.github.io/Projects.html)
 
 ---
-
-
-<div style="text-align: center;">
-  <img src="images/hex-bac2214.png" alt="Image Alt Text" style="margin: 0 auto; width: 20%;">
-</div>
