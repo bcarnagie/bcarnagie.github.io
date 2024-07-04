@@ -17,6 +17,20 @@ output:
 
 This thesis explores the significant public health issue of food insecurity among immigrants in comparison to U.S.-born citizens, utilizing data from the National Health and Nutrition Examination Surveys (NHANES). Key findings include that approximately 20.7% of the immigrant population in the U.S. experiences food insecurity with significant risk factors such as non-citizenship status, specific racial/ethnic groups, lower education levels, and language barriers. The study underscores the importance of nuanced public health policies and interventions designed to enhance food security among immigrant populations, thereby contributing to broader societal health and stability.
 
+## The Impact of Insurance Coverage on Hospital Outcomes 
+
+*May 2024*  
+**Machine Learning Project**
+
+*Research Question:* How does the length of stay vary by type of insurance coverage in surgical patients?
+
+
+- Utilized the SPARCS dataset, capturing detailed patient-level information including characteristics, diagnoses, treatments, services, and charges across hospital inpatient stays and outpatient visits.
+- Analyzed key variables such as age group, severity of illness, risk of mortality, and insurance type.
+- Applied feature selection using Lasso Regression.
+- Utilized propensity score estimation with Random Forest and conducted propensity score matching for outcome analysis.
+- Provided insights into how insurance type correlates with patient length of stay in surgical settings, contributing to discussions on healthcare access and resource allocation.
+
 ## Food Insecurity and Educational Attainment
 
 *November 2023*  
